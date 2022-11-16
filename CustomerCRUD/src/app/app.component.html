@@ -1,0 +1,37 @@
+<div class="container">
+    <nav class="navbar navbar-custom1"> 
+    <h3 class="d-flex justify-content-center">Customer Management Portal</h3>
+    <h5 class="d-flex justify-content-center">using Angular 14, .NET 6.0 Web API (REST) & SQL Server</h5>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-sm bg-light navbar-light bg-primary"> -->
+    <nav class="navbar navbar-custom2"> 
+        <!-- <a class="navbar-nav" href="#"></a>     -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <button routerLink="company"
+            class="m-1 btn btn-light btn-outline-primary" Button>Companies</button>
+        </li>
+
+        <li class="nav-item">
+            <button routerLink="Customer"
+            class="m-1 btn btn-light btn-outline-primary" Button>Customers</button>
+        </li>
+    </ul>
+    </nav>
+
+<router-outlet></router-outlet>
+
+</div>
+<style>
+    .navbar-custom1 {
+        background-color: rgb(204, 173, 241);
+    }
+    .navbar-custom2 {
+        background-color: rgb(131, 168, 238);
+    }
+     
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: rgb(0, 0, 0);
+    }
+</style>

@@ -1,0 +1,27 @@
+<div class="d-flex flex-row bd-highlight mb-3">
+    <div class="form-froup row" style="width: 60%;">
+        <label class="col-sm-2 col-form-label">Customer Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="Name" placeholder="Enter Customer Name">
+        </div>
+        <label class="col-sm-2 col-form-label">Phone</label>
+        <div class="col-sm-10">
+            <input type="text" [(ngModel)]="Phone" placeholder="Enter Phone no.">
+        </div>
+        <label class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input type="text" [(ngModel)]="Email" placeholder="Enter Email ID">
+        </div>
+        <label class="col-sm-2 col-form-label">CompanyName</label>
+        <div class="col-sm-10">
+        <select class="form-control" [(ngModel)]="CompanyName">
+            <option>--Select--</option>
+            <option *ngFor="let comName of CompanyList">
+                {{comName.CompanyName}}
+            </option>
+        </select>
+        </div>
+    </div>  
+</div>
+<button (click)="addCustomer()" *ngIf="cust.Id==0" class="btn btn-primary">Add</button>
+<button (click)="updateCustomer()" *ngIf="cust.Id!=0" class="btn btn-primary">Update</button>

@@ -1,0 +1,8 @@
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.csproj.AssemblyReference.cache
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.AssemblyInfoInputs.cache
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.AssemblyInfo.cs
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.csproj.CoreCompileInputs.cache
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.RazorAssemblyInfo.cache
+D:\Customer_CRUD_App\CustCRUDWebAPI\CustCRUDWebAPI\obj\Debug\net5.0\CustCRUDWebAPI.RazorAssemblyInfo.cs
